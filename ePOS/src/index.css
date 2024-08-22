@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+    --navbar-height: 0; /* Initialize the variable */
+  }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a.nav-link {
+    transition: transform 0.2s ease-out;
+}
+
+a.nav-link.active {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    position: absolute;
+    transform: translate(-50%, -50%);
+
+}
